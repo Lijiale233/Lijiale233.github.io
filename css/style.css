@@ -218,6 +218,7 @@ img{
 	/*font-family: 'helvetica neue', arial;*/
 }
 .pro-intro-container>.pro-title{
+	color: transparent;
 	font-size: 16px;
 	line-height: 170%;
 	/*color: #333;*/
@@ -456,7 +457,8 @@ img{
 	padding: 12px;
 }
 .self-intro>.title{
-	font-size: 1.3em;
+	margin: 10px;
+	font-size: 1.5em;
 	font-weight: normal;
 	color: rgba(255,255,255,0.9);
 }
@@ -758,6 +760,7 @@ img{
 		display: none;
 	}
 	.intro-text{
+		text-align: center;
 		width:100%!important;
 	}
 	.module>.content{
@@ -869,23 +872,32 @@ img{
 	display: flex;
 	display: -webkit-flex;
 	justify-content: center;
+	align-content: center;
 	margin-top: 30px;
 }
 .self-intro-bo{
-	width: 580px;
+	justify-content: center;
+	align-content: center;
+
+	width: 280px;
 }
 .photo-container{
+	justify-content: center;
 	width: 80px;
 	float: left;
 }
 .myphoto{
+	justify-content: center;
 	width: 80px;
 	height: 80px;
 	border-radius: 50%;
 }
 .intro-text{
-	width: 500px;
-	padding: 12px 0 12px 30px;
+	justify-content: center;
+	/*text-align: center;*/
+	width: 200px;
+	padding-left:12px;
+	/*padding: 12px 0 12px 30px;*/
 	color: rgba(255,255,255,0.7);
 	float: left;
 	line-height: 1.2;

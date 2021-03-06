@@ -28,15 +28,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/imgs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/imgs/1" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\Desktop\PersonalProfile\Lijiale233.github.io\imgs\1" />
       <recent name="C:\Users\PC\Desktop\PersonalProfile\Lijiale233.github.io\imgs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PC\Desktop\PersonalProfile\Lijiale233.github.io\imgs" />
+      <recent name="C:\Users\PC\Desktop\PersonalProfile\Lijiale233.github.io\imgs\1" />
+      <recent name="C:\Users\PC\Desktop\PersonalProfile\Lijiale233.github.io\imgs\2f" />
       <recent name="C:\Users\PC\Desktop\PersonalProfile\Lijiale233.github.io\Lijiale" />
     </key>
   </component>
@@ -48,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615014259925</updated>
-      <workItem from="1615014275014" duration="6789000" />
+      <workItem from="1615014275014" duration="11563000" />
     </task>
     <servers />
   </component>

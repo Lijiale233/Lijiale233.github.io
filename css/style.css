@@ -757,11 +757,10 @@ img{
 		width: 100%;
 	}
 	.photo-container{
-		display: none;
+		text-align: center;
 	}
 	.intro-text{
 		text-align: center;
-		width:100%!important;
 	}
 	.module>.content{
 		padding-left: 15px!important;

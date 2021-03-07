@@ -277,7 +277,7 @@ img{
 	background-position: center;
 }
 .module>.content{
-	width: 988px;
+	width: 1050px;
 	margin: auto;
 	padding: 60px 2% 60px 2%;
 }
@@ -594,6 +594,12 @@ img{
 	padding: 20px 12px 0 0;
 	float:left;
 }
+.subtitle{
+	width:auto;
+	height: auto;
+	font-size: 16px;
+	text-align: center;
+}
 .key{
 	width: 120px;
 	height: 120px;
@@ -725,6 +731,8 @@ img{
 		width: 100%;
 	}
 }
+
+
 @media(max-width: 579px) {/*row become columns*/
 	.container-my{
 		width: 100%;

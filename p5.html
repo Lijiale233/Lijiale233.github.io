@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type"  content="text/html; charset=utf-8">  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Copatible" content="IE=edge">
+    <meta name="viewport"  content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>Seasonality</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		body{
+			font-size: 18px;
+			color:white;
+		}
+	</style>
+</head>
+<body>
+	<div class="module banner banner-responsive Phead">
+		<div class="content clearfix">
+			<div class="col-md-6-my intro" style="padding-top: 50px;">
+				<div class="title">爱腕猎手</div>
+				<div class="txt txt-intro" style="color: rgba(255, 255, 255, 0.9); ">为缓解高频率使用鼠标而造成的腕关节劳损<br>基于LEAP-MOTION设计开发的一款3D游戏</div>
+			</div>
+			<div class="col-md-6-my">
+				<img class="img-ai-intro" style="-webkit-filter:drop-shadow(10px 10px 10px rgba(0,0,0,.5));" src="imgs/5/page.png">
+			</div>
+		</div>
+	</div>
+	<div class="module pContent">
+		<div class="content clearfix">
+			<div class="title-main"><b>项目引入</b></div>
+
+				<div class="row">
+					<div class="row">
+						<div class="col-md-4" style="text-align: center;">
+							<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>问题阐述</b></div>
+							<ul>
+								<li>如今无论是学习工作，都离不开使用电脑和鼠标</li>
+								<li>长期使用鼠标造成持续性的腕关节劳损，腱鞘炎</li>
+								<li>即便是人体工学鼠标，也无法避免使用带来的损伤</li>
+							</ul>
+						</div>
+						<div class="col-md-4" style="text-align: center">
+							<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>预防方法</b></div>
+							<ul>
+								<li>腕管综合症（鼠标手）并非不可逆的永久性损伤</li>
+								<li>人们需要规律性切正确的进行腕关节活动和放松</li>
+								<li>但是动作必须正确进行，否则有加重损伤的可能</li>
+							</ul>
+						</div>
+						<div class="col-md-4" style="text-align: center">
+							<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>痛点分析</b></div>
+							<ul>
+								<li>因为其症状时重时轻，容易造成人们忽视</li>
+								<li>在进行保健恢复时，没有专业正确的引导</li>
+								<li>无法坚持做到规律性周期性的进行手部放松</li>
+							</ul>
+						</div>
+				</div>
+			<img style='width: 100%; padding: 20px 0;  ' src="imgs/5/1.png">
+		</div>
+	</div>
+
+	<div class="module pContent">
+		<div class="content clearfix">
+			<div class="title-main"><b>项目设计</b></div>
+			<div class="row">
+				<div class="row">
+					<div class="col-md-4" style="text-align: center">
+						<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>用户调研</b></div>
+						<ul>
+							<li>对本校计算机学院780名学生发放问卷收回91份</li>
+							<li>63%学生表示手腕部经常出现疼痛无力的症状</li>
+							<li>其中90%以上没有进行康复运动的经验和意识</li>
+						</ul>
+					</div>
+					<div class="col-md-4" style="text-align: center;">
+						<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>需求分析</b></div>
+						<ul >
+							<li>需要能让人们按照正确和预定的方式活动手腕</li>
+							<li>需有趣味性，可以吸引人持续进行保健放松</li>
+							<li>不借助过大专业设备，可在不同场合进行自主放松</li>
+						</ul>
+					</div>
+					<div class="col-md-4" style="text-align: center">
+						<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>概要设计</b></div>
+						<ul>
+							<li>骨骼识别计算手部的实时动作，以规范动作</li>
+							<li>采用3D游戏吸引用户持续进行保健运动</li>
+							<li>基于轻便易部署的LEAP-MOTION进行开发</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+			<img style='width: 100%; padding: 20px 0;   ' src="imgs/5/2.png">
+		</div>
+	</div>
+
+	<div class="module pContent">
+		<div class="content clearfix">
+			<div class="title-main"><b>游戏设计</b></div>
+			<div class="row">
+				<div class="col-md-4" style="text-align: center;">
+					<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>故事策划</b>
+					</div>
+					<ul >
+						<li>迷失在丛林里的小哥布林，需要独自闯过这片丛林</li>
+						<li>丛林有各种各样的猛兽，要用手中的弓箭保护自己</li>
+					</ul>
+				</div>
+				<div class="col-md-4" style="text-align: center">
+					<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>游戏方法</b></div>
+					<ul>
+						<li>玩家通过常规键位控制哥布林的移动和视角</li>
+						<li>需要拉弓射击时，需用手腕模拟拉弓及射击动作</li>
+					</ul>
+				</div>
+				<div class="col-md-4" style="text-align: center">
+					<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>控制细节</b></div>
+					<ul>
+						<li>展开攻击时，持续识别玩家手部动作并予以引导</li>
+						<li>只有正确完成预定的手部动作，才能将弓箭射出</li>
+					</ul>
+				</div>
+			</div>
+			<img style='width: 100%; margin: 0 0 12px 0;' src="imgs/5/3.png">
+		</div>
+	</div>
+
+	<div class="module pContent">
+		<div class="content clearfix">
+			<div class="title-main"><b>项目规划</b></div>
+				 <div class="row">
+					 <div class="col-md-4" style="text-align: center;">
+						 <div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>开发进展</b></div>
+						 <ul >
+							 <li>目前已完成场景搭建及角色控制部分</li>
+							 <li>手部操作涉及医学内容，目前在调整中</li>
+						 </ul>
+					 </div>
+					 <div class="col-md-4" style="text-align: center">
+						 <div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>本阶段计划</b></div>
+						 <ul>
+							 <li>四月底前将完成本游戏的全部基础开发内容</li>
+							 <li>届时会考虑对渲染和模型动画部分进行优化</li>
+						 </ul>
+					 </div>
+					 <div class="col-md-4" style="text-align: center">
+						 <div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>未来愿景</b></div>
+						 <ul>
+							 <li>基于此控制理念完成多款同风格保健类型小游戏</li>
+							 <li>并汇各小游戏组成统一世界观(返照Wii运动岛)</li>
+						 </ul>
+					 </div>
+				 </div>
+			 </div>
+<!--			<img style='width: 100%; margin: 0 0 12px 0;  '  src="imgs/4/4.png">-->
+		</div>
+	</div>
+
+<!-- 	<div class="module" style="background-color: #f7f6f5;">
+		<div class="content clearfix">
+			<div class="title-main" style="font-weight: bold; font-size: 1.85em; margin-bottom: 20px;">User Flow</div>
+			<img style='width: 100%; padding: 20px 0;' src="imgs/pro-season/user_flow2.png">
+		</div>
+	</div> -->
+
+
+	<a href="#"><div class="to-top"></div></a>
+
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() { 			
+			$(".to-top").hide();
+			currTop = 0;
+			$(window).scroll(function(){
+				var windowTop = $(window).scrollTop()||0;
+				if (windowTop > 200){
+					$(".to-top").fadeIn(300);
+				}
+				else{
+					$(".to-top").fadeOut(300);
+				}
+				if(windowTop >= currTop){
+					$(".navbar").addClass("navbar-hide");
+				}else{
+					$(".navbar").removeClass("navbar-hide")
+					if(windowTop > 20){
+						$(".navbar").addClass("navbar-custom");
+					}else{
+						$(".navbar").removeClass("navbar-custom");
+					}
+				}
+
+				currTop = windowTop;
+
+			});
+
+			$(".tags>.btn").click(function(){
+				$(this).siblings().removeClass("active");
+				$(this).addClass("active");
+			});
+		});
+		var myVideo0 = document.getElementById("video0"); 
+		var myBtn0 = document.getElementById("play-btn0"); 
+		function playPause0() { 
+			// myBtn1.setAttribute('src', 'imgs/play-btn.svg');
+		    if (myVideo0.paused) {
+		    	myVideo0.play();
+		    	myVideo0.controls="controls";
+		    	// myBtn1.attr('src', 'imgs/pause-btn.svg'); 
+		    	myBtn0.style.display="none";
+
+		    } else {
+		        myVideo0.pause();
+		        // myBtn1.setAttribute('src', 'imgs/pause-btn.svg');
+		        myBtn0.style.display="inline-block";
+		    }
+		}  
+		var myVideo1 = document.getElementById("video1"); 
+		var myBtn1 = document.getElementById("play-btn1"); 
+		
+		function playPause1() { 
+			// myBtn1.setAttribute('src', 'imgs/play-btn.svg');
+		    if (myVideo1.paused) {
+		    	myVideo1.play();
+		    	// myBtn1.attr('src', 'imgs/pause-btn.svg'); 
+		    	myBtn1.style.display="none";
+		    } else {
+		        myVideo1.pause();
+		        // myBtn1.setAttribute('src', 'imgs/pause-btn.svg');
+		        myBtn1.style.display="inline-block";
+		    }
+		} 
+
+		var myVideo2 = document.getElementById("video2");
+		var myBtn2 = document.getElementById("play-btn2");  
+		function playPause2() { 
+		    if (myVideo2.paused){
+		        myVideo2.play();
+		        myBtn2.style.display="none"; 
+		    }
+		    else{
+		        myVideo2.pause(); 
+		        myBtn2.style.display="inline-block";
+		    } 
+		} 
+	</script>
+
+</body>
+</html>

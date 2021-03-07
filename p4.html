@@ -13,12 +13,12 @@
 <body>
 	<div class="module banner banner-responsive" style="background-color:#3177DB; overflow: hidden;">
 		<div class="content clearfix">
-			<div class="col-md-6-my intro" style="padding-top: 40px;">
-				<div class="title">HiCollege 校务管理系统</div>
-				<div class="txt txt-intro" style="color: rgba(255, 255, 255, 0.9); ">Hicollege（你好校园）平台是一款基于情绪分析模块的校园信息分享平台，即契合高校师生在校园生活中对于课程表，生活缴费，遗物挂失等基础功能的硬性需要，又基于情绪分析模块来满足现今高校对于心理健康检测手段的需求</div>
+			<div class="col-md-6-my intro" style="padding-top: 50px;">
+				<div class="title">VMake 影视制作管理系统</div>
+				<div class="txt txt-intro" style="color: rgba(255, 255, 255, 0.9); ">针对国内影视行业在制作影片时的问题，<br>开发一套完整的工作流程及办公软件。</div>
 			</div>
 			<div class="col-md-6-my">
-				<img class="img-ai-intro" src="imgs/2/page.png">
+				<img class="img-ai-intro" src="imgs/4/page.png">
 			</div>
 		</div>
 	</div>
@@ -28,101 +28,103 @@
 
 			<div class="txt-main" style="text-align: left; color: #333;">
 				<div class="row">
-					<div class="col-md-4" style="text-align: center;">
-						<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>项目背景</b></div>
-					<ul >
-						<li>高校内低效的师生沟通钱信息化</li>
-						<li>近年高校频发学生心理问题事件</li>
-						<li>心理状态与其在校表现强相关性</li>
-					</ul>
-					</div>
-					<div class="col-md-4" style="text-align: center">
-						<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>用户调研</b></div>
-						<ul>
-							<li>学生需要有快捷高效的意见反馈通道</li>
-							<li>高校需明晰学生意见反馈并及时处理</li>
-							<li>高校需了解学生心理状况并提供帮助</li>
-						</ul>
-					</div>
-					<div class="col-md-4" style="text-align: center">
-						<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>需求分析</b></div>
-						<ul>
-							<li>满足学生日常生活需求服务为前提</li>
-							<li>在应用内开发并完善校内社交平台</li>
-							<li>基于学生言论及在校表现构建画像</li>
-						</ul>
-					</div>
-
+					<div class="row">
+						<div class="col-md-4" style="text-align: center;">
+							<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>行业背景</b></div>
+							<ul>
+								<li>中国影视行业近年来飞速发展，但管理模式没有跟进</li>
+								<li>国内剧组规模成扩大化趋势，分布在30～100人区间</li>
+								<li>人员管理方式落后，剧组人员工作状况不规律，不固定</li>
+							</ul>
+						</div>
+						<div class="col-md-4" style="text-align: center">
+							<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>访谈调研</b></div>
+							<ul>
+								<li>对深圳某中等规模剧组进行了跟组观察</li>
+								<li>对《罗曼蒂克消亡史》制片人开展深度访问</li>
+								<li>在北京各院校相关专业收回三百余份问卷</li>
+							</ul>
+						</div>
+						<div class="col-md-4" style="text-align: center">
+							<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>痛点陈述</b></div>
+							<ul>
+								<li>剧组工作模式没有合理的工作计划，经常造成加班</li>
+								<li>组内各人员间工作交流频繁，常发生信息缺漏或重复</li>
+								<li>财务计划往往不适应的拍摄情况，新计划更新延迟</li>
+							</ul>
+						</div>
 				</div>
-			<img style='width: 100%; padding: 20px 0;  ' src="imgs/2/1.png">
-		</div>
-	</div>
-
-	<div class="module" style="background-color: #f7f6f5;">
-		<div class="content clearfix">
-			<div class="title-main"><b>系统设计</b></div>
-			<div class="row">
-				<div class="col-md-4" style="text-align: center;">
-					<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>基础校务功能</b></div>
-					<ul >
-						<li>基于本校校务系统接口配置各数据源</li>
-						<li>迁移pc端各校务功能，移植于小程序</li>
-						<li>依据内学生社交结构，开发学生社区</li>
-					</ul>
-				</div>
-				<div class="col-md-4" style="text-align: center">
-					<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>心理画像构建</b></div>
-					<ul>
-						<li>基于用户ID进行识别，于其他平台挖掘数据，补充样本</li>
-						<li>通过对言论样本分析，总结学生情绪状态，关联在校表现</li>
-						<li>考虑多维度数据后基于决策树建模，产出学生情绪画像</li>
-					</ul>
-				</div>
-				<div class="col-md-4" style="text-align: center">
-					<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>教师端开发</b></div>
-					<ul>
-						<li>对学生反馈后进行关键词甄别，选择性接收显示</li>
-						<li>对学生整体情绪状况做可视化分析，做图表展示</li>
-						<li>对高情绪风险学生做标记，提醒教师给予关注</li>
-					</ul>
-				</div>
-			</div>
-			<img style='width: 100%; padding: 20px 0;   ' src="imgs/2/2.png">
+			<img style='width: 100%; padding: 20px 0;  ' src="imgs/4/1.png">
 		</div>
 	</div>
 
 	<div class="module" style="background-color: white;">
 		<div class="content clearfix">
-			<div class="title-main"><b>落地过程</b></div>
+			<div class="title-main"><b>项目设计</b></div>
 			<div class="row">
-				<div class="col-md-4" style="text-align: center;">
-					<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>平台选择</b>
+				<div class="row">
+					<div class="col-md-4" style="text-align: center;">
+						<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>需求分析</b></div>
+						<ul >
+							<li>需要对依据整体工作进度实时产出合理工作安排</li>
+							<li>需对组内人员交流数据进行统一管理并定向分发</li>
+							<li>需要实时录入财务报表，并对财务状况实时统计</li>
+						</ul>
 					</div>
-					<ul >
-						<li>选择小程序此类轻量级应用，搭建过程中投入较少精力</li>
-						<li>因用户功能的明显差异，采用教师端学生端分离的方案</li>
-					</ul>
-				</div>
-				<div class="col-md-4" style="text-align: center">
-					<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>数据获取</b></div>
-					<ul>
-						<li>获取校务系统的接口使用许可，保障基础数据来源</li>
-						<li>基于学生ID，在其他平台内采集言论，扩大样本</li>
-					</ul>
-				</div>
-				<div class="col-md-4" style="text-align: center">
-					<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>分析及可视化</b></div>
-					<ul>
-						<li>基于Transformer，完成对学生言论的情绪评估</li>
-						<li>基于W-CHART，建立简单的小程序内可视化图表</li>
-					</ul>
+					<div class="col-md-4" style="text-align: center">
+						<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>竞品分析</b></div>
+						<ul>
+							<li>云尚制片：主要围绕剧组拍摄任务进行开发</li>
+							<li>Agile：提供了智能剧本拆解及后期辅助功能</li>
+							<li>shotgun：可对每个组员任务进行详细管理</li>
+						</ul>
+					</div>
+					<div class="col-md-4" style="text-align: center">
+						<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>机会分析</b></div>
+						<ul>
+							<li>软件学习成本高，功能设计不适用于中小剧组</li>
+							<li>各软件有其专注的生产阶段，不涵盖制作过程</li>
+							<li>对财务状况的分析及反馈不足，可视化程度低</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-			<img style='width: 100%; margin: 0 0 12px 0;' src="imgs/2/3.png">
+			<img style='width: 100%; padding: 20px 0;   ' src="imgs/4/2.png">
 		</div>
 	</div>
 
-	<div class="module" style="background-color: #f7f6f5;">
+	<div class="module" style="background-color: white;">
+		<div class="content clearfix">
+			<div class="title-main"><b>功能设计</b></div>
+			<div class="row">
+				<div class="col-md-4" style="text-align: center;">
+					<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>公告智能分发</b>
+					</div>
+					<ul >
+						<li>为各分组开发专属的交流平台，通知统一收集</li>
+						<li>对通知目标智能识别，提取关键词进行智能推送</li>
+					</ul>
+				</div>
+				<div class="col-md-4" style="text-align: center">
+					<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>财务报表录入</b></div>
+					<ul>
+						<li>对财务报表格式进行约束后接受扫描报表</li>
+						<li>对报表数据智能提取，实时于数据大屏更新</li>
+					</ul>
+				</div>
+				<div class="col-md-4" style="text-align: center">
+					<div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>后期在线审片</b></div>
+					<ul>
+						<li>为后期制作人员和导演间开通审片快速通道</li>
+						<li>导演可以及时对关键帧进行标注，并给予意见</li>
+					</ul>
+				</div>
+			</div>
+			<img style='width: 100%; margin: 0 0 12px 0;' src="imgs/4/3.png">
+		</div>
+	</div>
+
+	<div class="module" style="background-color: white;">
 		<div class="content clearfix">
 			<div class="title-main"><b>项目总结</b></div>
 			 <div class="txt-main" style="text-align: left; color: #333;">
@@ -130,30 +132,27 @@
 					 <div class="col-md-4" style="text-align: center;">
 						 <div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>团队分工</b></div>
 						 <ul >
-							 <li>分工针对平台搭建和数据处理分离</li>
-							 <li>个人承担 95% 的编码和设计工作</li>
-							 <li>完成了针对原数据分析展示的任务</li>
+							 <li>与多专业团队完成项目调研以及需求分析</li>
+							 <li>提供对应技术解决方案以及可行性分析</li>
 						 </ul>
 					 </div>
 					 <div class="col-md-4" style="text-align: center">
-						 <div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>项目奖励</b></div>
+						 <div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>项目成果</b></div>
 						 <ul>
-							 <li>中国大学生创新创业项目执行方案</li>
-							 <li>中国大学生计算机设计大赛二等奖</li>
-							 <li>目前正积极参加各大计算机类竞赛</li>
+							 <li>完成完成的需求分析以及项目设计文档</li>
+							 <li>参与UXAD大赛并通过华南赛区区域复赛</li>
 						 </ul>
 					 </div>
 					 <div class="col-md-4" style="text-align: center">
 						 <div style="text-align: center; font-size: 20px;margin-bottom: 8px"><b>个人收获</b></div>
 						 <ul>
-							 <li>掌握从零搭建一个落地应用的完成过程</li>
-							 <li>基于切身需求对NLP运用场景的深度探索</li>
-							 <li>作为负责人进行组织分工，制定开发计划</li>
+							 <li>对交互设计过程中的各类文档规范有了深入了解</li>
+							 <li>积累了对陌生行业进行深度调研的宝贵方法论</li>
 						 </ul>
 					 </div>
 				 </div>
 			 </div>
-			<img style='width: 100%; margin: 0 0 12px 0;  '  src="imgs/1/1f.png">
+			<img style='width: 100%; margin: 0 0 12px 0;  '  src="imgs/4/4.png">
 		</div>
 	</div>
 

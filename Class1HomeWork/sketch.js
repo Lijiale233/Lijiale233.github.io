@@ -15,7 +15,7 @@ var optionZhu = {
     data: ['Confidence']
   },
   xAxis: {
-    data: ['衬衫', '羊毛衫', '雪纺衫']
+    data: ['Loading', 'Loading', 'Loading']
   },
   yAxis: {},
   series: [
@@ -45,9 +45,9 @@ var optionBin = {
       type: 'pie',
       radius: '50%',
       data: [
-        { value: 1048, name: 'Search Engine' },
-        { value: 735, name: 'Direct' },
-        { value: 580, name: 'Email' }
+        { value: 1048, name: 'Loading' },
+        { value: 735, name: 'Loading' },
+        { value: 580, name: 'Loading' }
       ],
       emphasis: {
         itemStyle: {

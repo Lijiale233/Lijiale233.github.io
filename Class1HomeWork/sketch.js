@@ -96,7 +96,7 @@ function draw() {
     optionBin.series[0].data[index].name = globalResults[index].label
   
   }
-  if(count%40 ==0){
+  if(count%160 ==0){
     myChartZhu.setOption(optionZhu);
     myChartBin.setOption(optionBin);
   }
